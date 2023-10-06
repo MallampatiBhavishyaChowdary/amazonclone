@@ -1,7 +1,22 @@
 *{
+    {  @media screen and (max-width: 768px) {
+}
+    @media screen and (min-width: 769px) and (max-width: 1200px) {
+}
     margin: 0;
     font-family: Arial;
     border: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center align container */
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+      
 }
 
 .navbar {
